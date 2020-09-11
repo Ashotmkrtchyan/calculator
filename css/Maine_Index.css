@@ -1,0 +1,138 @@
+body {
+    background: aqua url("../image/bg_index.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.bodey_grid {
+    display: grid;
+    grid-template-columns:  repeat(auto-fit,minmax(400px,1fr));
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 5px;
+}
+
+.login_form input {
+    background-color: aqua;
+    background-image: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: red;
+    font-family: sans-serif;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.login_form button {
+    width: 150px;
+    cursor: pointer;
+}
+
+.login_form a {
+    color: red;
+}
+
+.regist_p {
+    color: red;
+    font-size: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px 70px;
+    grid-auto-rows: 70px;
+    grid-row-gap: 20px;
+}
+
+.grid_item {
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-auto-rows: 70px;
+    grid-column-gap: 35px;
+    grid-row-gap: 35px;
+}
+
+.grid_form_div {
+    display: grid;
+    grid-template-columns: minmax(150px, 400px) 1fr;
+}
+
+.grid_form_form {
+    display: grid;
+}
+
+#log_button {
+    background-color: azure;
+    color: red;
+    border-radius: 10px;
+}
+
+.active {
+    color: red !important;
+    box-shadow: 0px 0px 5px 6px red !important;
+}
+
+.calculate_item {
+    border: black 1px solid;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 6px rgba(255, 255, 255, 0.75);
+    text-align: center;
+    font-size: 50px;
+    color: azure;
+    cursor: pointer;
+}
+
+.calculate_item:hover {
+    color: red;
+    box-shadow: 0px 0px 5px 6px red;
+}
+
+.calculate_log {
+    padding-top: 14px;
+    font-size: 23px;
+}
+
+.calculate_input {
+    background: rgba(255, 255, 255, 0.5);
+    text-align: right;
+    font-size: 30px;
+    color: azure;
+    border-radius: 15px;
+    border: none;
+    box-shadow: none;
+}
+
+.history_div {
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    background: aqua url("../image/bg_index.jpg") no-repeat fixed;
+    border: burlywood 1px solid;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size:  25px;
+}
+.history_init{
+    color: aliceblue;
+}
+.log_out a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.seve{
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    color: aliceblue;
+    border: aliceblue 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
